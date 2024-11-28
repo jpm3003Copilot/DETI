@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: job_postings   # Name of the source schema
+    schema: job_postings # Snowflake schema where the table resides
+    database: deti # Snowflake database
+    tables:
+      - name: jobs  # Name of the table in Snowflake
